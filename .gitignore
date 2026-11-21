@@ -1,0 +1,26 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+keystore.properties
+*.jks
+*.keystore
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Backend
+backend/node_modules/
+backend/.dev.vars
+backend/.wrangler/
+backend/dist/
+*.log
+
+# Build outputs copied for delivery are tracked intentionally
+!dist/*.apk

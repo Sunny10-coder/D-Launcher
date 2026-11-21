@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Little World</string>
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_day">Hello</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="tile_learning">My Learning World</string>
+    <string name="tile_learning_sub">Stories, letters and games</string>
+    <string name="tile_call">Call %1$s</string>
+    <string name="tile_call_sub">Talk and see each other</string>
+    <string name="tile_youtube">YouTube Kids</string>
+    <string name="tile_youtube_sub">Fun videos for me</string>
+    <string name="tile_camera">My Camera</string>
+    <string name="tile_camera_sub">Take a photo or video</string>
+    <string name="tile_play">Play with %1$s</string>
+    <string name="tile_play_sub">Our game together</string>
+
+    <string name="settings_title">Grown-ups only</string>
+    <string name="settings_locked">This area is for grown-ups</string>
+    <string name="pin_prompt">Enter the grown-up PIN</string>
+    <string name="pin_wrong">That PIN is not right. Try again.</string>
+    <string name="pin_set_title">Create a grown-up PIN</string>
+    <string name="pin_set_help">Use 4 to 8 numbers. You will need it to open settings.</string>
+    <string name="settings_pin">Grown-up PIN</string>
+    <string name="settings_pin_change">Change PIN</string>
+    <string name="settings_nickname">Child\'s name</string>
+    <string name="settings_parent_name">Parent\'s name</string>
+    <string name="settings_learning_url">Learning website address</string>
+    <string name="settings_play_url">Play together address</string>
+    <string name="settings_pairing">Pairing</string>
+    <string name="settings_pair_status">Paired with %1$s</string>
+    <string name="settings_not_paired">Not paired yet</string>
+    <string name="settings_server">Family service address</string>
+    <string name="settings_youtube_status">YouTube Kids installed</string>
+    <string name="settings_youtube_missing">YouTube Kids is not installed</string>
+    <string name="settings_install_youtube">Get YouTube Kids</string>
+    <string name="settings_auto_answer">Answer %1$s\'s voice calls automatically</string>
+    <string name="settings_auto_answer_help">Voice only. The phone rings, says who is calling out loud, and always shows an End Call button. Video never starts by itself.</string>
+    <string name="settings_close">Close</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_reload">Reload settings</string>
+    <string name="settings_unpair">Unpair this phone</string>
+    <string name="settings_server_help">Use the address your family service is deployed to. Leave the placeholder to run in local development mode.</string>
+
+    <string name="pair_title">Pair this phone</string>
+    <string name="pair_help">Open My Little World Parent, choose “Add child phone”, then type the 6 number code here.</string>
+    <string name="pair_code">Pairing code</string>
+    <string name="pair_action">Pair</string>
+    <string name="pair_success">Paired with %1$s. All set!</string>
+    <string name="pair_failed">We could not pair. Check the code and the connection.</string>
+    <string name="pair_expired">That code has expired. Ask for a new one.</string>
+
+    <string name="offline_title">Let\'s try again</string>
+    <string name="offline_body">The learning world needs the internet right now. Ask a grown-up to check Wi-Fi, then tap Try again.</string>
+    <string name="offline_retry">Try again</string>
+    <string name="learning_not_configured_title">My Learning World</string>
+    <string name="learning_not_configured_body">A grown-up has not chosen a learning website yet. You can still play here!</string>
+    <string name="learning_blocked_title">That page is not part of My Little World</string>
+    <string name="learning_blocked_body">Only the learning website chosen by a grown-up can open here.</string>
+    <string name="learning_go_back">Go back</string>
+    <string name="webview_missing">The web viewer is missing or disabled on this phone.</string>
+
+    <string name="call_calling">Calling %1$s…</string>
+    <string name="call_incoming">%1$s is calling</string>
+    <string name="call_connecting">Connecting…</string>
+    <string name="call_connected">Talking with %1$s</string>
+    <string name="call_ended">Call ended</string>
+    <string name="call_answer">Answer</string>
+    <string name="call_end">End call</string>
+    <string name="call_mute">Mute</string>
+    <string name="call_unmute">Unmute</string>
+    <string name="call_speaker">Speaker</string>
+    <string name="call_video_on">Turn my camera on</string>
+    <string name="call_video_off">Turn my camera off</string>
+    <string name="call_auto_answer_notice">%1$s\'s call answered automatically. Tap End call to stop.</string>
+    <string name="call_no_mic">Microphone permission is needed for calls.</string>
+    <string name="call_not_configured">Calling is not set up yet. Ask a grown-up to set up the family service.</string>
+    <string name="call_failed">The call could not connect. Please try again.</string>
+    <string name="call_reconnecting">Reconnecting…</string>
+    <string name="call_find_phone">%1$s is looking for this phone</string>
+
+    <string name="camera_shutter">Take photo</string>
+    <string name="camera_record">Record video</string>
+    <string name="camera_stop">Stop recording</string>
+    <string name="camera_switch">Flip camera</string>
+    <string name="camera_permission">Camera permission is needed to take pictures.</string>
+    <string name="camera_saved">Saved in your gallery</string>
+    <string name="camera_unavailable">No camera is available on this phone.</string>
+    <string name="camera_close">Close camera</string>
+
+    <string name="youtube_missing_title">YouTube Kids is not on this phone</string>
+    <string name="youtube_missing_body">Ask a grown-up to install it from the Play Store. Tap below to open the store.</string>
+    <string name="youtube_open_store">Open Play Store</string>
+    <string name="battery_low_title">Battery is getting low</string>
+    <string name="battery_low_body">Please ask a grown-up to charge this phone.</string>
+
+    <string name="notif_channel_service">Family connection</string>
+    <string name="notif_channel_calls">Incoming calls</string>
+    <string name="notif_service_title">My Little World is connected</string>
+    <string name="notif_service_body">%1$s can reach this phone</string>
+    <string name="notif_incoming_title">%1$s is calling</string>
+    <string name="notif_incoming_body">Tap to answer</string>
+    <string name="notif_ring_title">%1$s is looking for this phone</string>
+    <string name="notif_ring_body">Tap to stop ringing</string>
+    <string name="notif_permission_needed">Allow notifications so calls and messages can reach this phone.</string>
+
+    <string name="a11y_open_learning">Open My Learning World</string>
+    <string name="a11y_call_parent">Call %1$s</string>
+    <string name="a11y_open_youtube">Open YouTube Kids</string>
+    <string name="a11y_open_camera">Open my camera</string>
+    <string name="a11y_open_play">Play together with %1$s</string>
+    <string name="a11y_settings">Grown-up settings</string>
+    <string name="a11y_home">Home</string>
+    <string name="onboarding_title">Almost ready</string>
+    <string name="onboarding_body">Ask a grown-up to pair this phone with My Little World Parent. You can still play with the camera and videos.</string>
+    <string name="onboarding_pair">Pair this phone</string>
+    <string name="quiet_hours_title">Time to rest</string>
+    <string name="quiet_hours_body">The learning world is sleeping. Come back at %1$s.</string>
+    <string name="dev_mode_banner">Local development mode</string>
+</resources>

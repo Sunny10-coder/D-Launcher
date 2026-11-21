@@ -1,0 +1,65 @@
+# Notices
+
+## My Little World
+
+Copyright (C) 2026 the My Little World contributors.
+Licensed under the GNU Affero General Public License, version 3 or later.
+See `LICENSE` for the full text.
+
+## Upstream reference: webview-kiosk
+
+This project was designed after inspecting **webview-kiosk** by nktnet1:
+
+- Repository: https://github.com/nktnet1/webview-kiosk
+- License: AGPL-3.0-or-later
+
+No source files from webview-kiosk were copied into this repository. The
+following *architectural patterns* were adopted because they are proven in that
+project:
+
+- Declaring a HOME/DEFAULT intent filter so the app can act as the device
+  launcher, together with a "kiosk control panel" that is behind an adult gate.
+- Blocking navigation at the WebView layer with an explicit allow-list, rather
+  than relying on hiding browser chrome.
+- Keeping a recovery path out of kiosk mode (service-side unlock, settings PIN)
+  so a child can never be trapped in an inaccessible screen.
+
+Because the reference project and this project are both AGPL-3.0-or-later, the
+strong-copyleft source-sharing obligations apply consistently: if you run a
+modified version of this software as a network service or distribute APKs built
+from it, you must make the corresponding source available under the same licence.
+
+## Third-party components (Android)
+
+| Component | Licence |
+| --- | --- |
+| AndroidX / Jetpack Compose / CameraX / WorkManager | Apache-2.0 |
+| Kotlin, kotlinx.coroutines, kotlinx.serialization | Apache-2.0 |
+| OkHttp | Apache-2.0 |
+| Google Play services (Location) | Google APIs Terms; Apache-2.0 for the client |
+| ZXing core (QR generation) | Apache-2.0 |
+| Material Icons (if used) | Apache-2.0 |
+
+Icons in `child/ui/components/TileIcons.kt` are original vector drawings created
+for this project (Canvas drawing code), not third-party artwork.
+
+## Third-party components (backend)
+
+| Component | Licence |
+| --- | --- |
+| Cloudflare Workers runtime / wrangler | Apache-2.0 / MIT |
+| TypeScript | Apache-2.0 |
+
+## Map tiles
+
+The parent app renders OpenStreetMap raster tiles directly from
+`tile.openstreetmap.org` with an identifying User-Agent and no prefetching:
+
+- Map data © OpenStreetMap contributors, ODbL 1.0.
+- Tile usage is subject to the OSM Foundation Tile Usage Policy. For heavier or
+  commercial use, switch `OsmMap.kt` to a self-hosted or paid tile provider.
+
+## Fonts
+
+No custom font files are bundled. Malayalam and Latin text use the device's
+system fonts, which keeps the APK small and avoids licensing issues.

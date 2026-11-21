@@ -1,0 +1,38 @@
+# Family Connect - Cloudflare Worker configuration.
+#
+# This file contains NO secrets. Copy .dev.vars.example to .dev.vars for local
+# development, and set production secrets with:
+#   wrangler secret put SESSION_SECRET
+#
+# Replace the placeholder database_id and account routes before deploying.
+
+name = "family-connect"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "family_connect"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[[durable_objects.bindings]]
+name = "CALL_ROOMS"
+class_name = "CallRoom"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["CallRoom"]
+
+[vars]
+# Set to "false" in production: only the parent app should create accounts.
+ALLOW_REGISTRATION = "true"
+# Public ICE configuration handed to clients. Add a TURN server for reliable
+# calls on mobile networks; STUN alone is not sufficient everywhere.
+ICE_SERVERS_JSON = "[{\"urls\":[\"stun:stun.l.google.com:19302\"]}]"
+# Optional override for the public URL used in call WebSocket tickets. Leave
+# empty to derive it from the incoming request.
+# PUBLIC_ORIGIN = "https://family-connect.example.workers.dev"
+
+[observability]
+enabled = true

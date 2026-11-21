@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">എന്റെ ചെറിയ ലോകം</string>
+    <string name="greeting_morning">സുപ്രഭാതം</string>
+    <string name="greeting_day">ഹലോ</string>
+    <string name="greeting_evening">ശുഭസായാഹ്നം</string>
+    <string name="tile_learning">എന്റെ പഠനലോകം</string>
+    <string name="tile_learning_sub">കഥകൾ, അക്ഷരങ്ങൾ, കളികൾ</string>
+    <string name="tile_call">%1$s-നെ വിളിക്കൂ</string>
+    <string name="tile_call_sub">സംസാരിക്കാം, കാണാം</string>
+    <string name="tile_youtube">യൂട്യൂബ് കിഡ്സ്</string>
+    <string name="tile_youtube_sub">എനിക്കുള്ള വീഡിയോകൾ</string>
+    <string name="tile_camera">എന്റെ ക്യാമറ</string>
+    <string name="tile_camera_sub">ഫോട്ടോയും വീഡിയോയും</string>
+    <string name="tile_play">%1$s-നൊപ്പം കളിക്കാം</string>
+    <string name="tile_play_sub">നമ്മുടെ കളി</string>
+
+    <string name="settings_title">മുതിർന്നവർക്ക് മാത്രം</string>
+    <string name="settings_locked">ഈ ഭാഗം മുതിർന്നവർക്കുള്ളതാണ്</string>
+    <string name="pin_prompt">മുതിർന്നവരുടെ പിൻ നൽകുക</string>
+    <string name="pin_wrong">പിൻ ശരിയല്ല. വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="pin_set_title">മുതിർന്നവരുടെ പിൻ ഉണ്ടാക്കുക</string>
+    <string name="pin_set_help">4 മുതൽ 8 വരെ അക്കങ്ങൾ. ക്രമീകരണങ്ങൾ തുറക്കാൻ ഇത് വേണം.</string>
+    <string name="settings_pin">മുതിർന്നവരുടെ പിൻ</string>
+    <string name="settings_pin_change">പിൻ മാറ്റുക</string>
+    <string name="settings_nickname">കുട്ടിയുടെ പേര്</string>
+    <string name="settings_parent_name">മാതാപിതാവിന്റെ പേര്</string>
+    <string name="settings_learning_url">പഠന വെബ്സൈറ്റ് വിലാസം</string>
+    <string name="settings_play_url">കളിയുടെ വിലാസം</string>
+    <string name="settings_pairing">ജോടിയാക്കൽ</string>
+    <string name="settings_pair_status">%1$s-മായി ജോടിയാക്കിയിരിക്കുന്നു</string>
+    <string name="settings_not_paired">ഇതുവരെ ജോടിയാക്കിയിട്ടില്ല</string>
+    <string name="settings_server">ഫാമിലി സേവന വിലാസം</string>
+    <string name="settings_youtube_status">യൂട്യൂബ് കിഡ്സ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ട്</string>
+    <string name="settings_youtube_missing">യൂട്യൂബ് കിഡ്സ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല</string>
+    <string name="settings_install_youtube">യൂട്യൂബ് കിഡ്സ് വാങ്ങുക</string>
+    <string name="settings_auto_answer">%1$s-ന്റെ വോയ്സ് കോളുകൾ സ്വയം എടുക്കുക</string>
+    <string name="settings_auto_answer_help">വോയ്സ് മാത്രം. ഫോൺ മുഴങ്ങും, ആരാണെന്ന് ഉറക്കെ പറയും, എപ്പോഴും എൻഡ് കോൾ ബട്ടൺ കാണാം. വീഡിയോ തനിയെ തുടങ്ങില്ല.</string>
+    <string name="settings_close">അടയ്ക്കുക</string>
+    <string name="settings_save">സൂക്ഷിക്കുക</string>
+    <string name="settings_reload">വീണ്ടും ലോഡ് ചെയ്യുക</string>
+    <string name="settings_unpair">ഈ ഫോൺ ജോടിയിൽ നിന്ന് മാറ്റുക</string>
+    <string name="settings_server_help">സേവനം ഇൻസ്റ്റാൾ ചെയ്ത വിലാസം നൽകുക.</string>
+
+    <string name="pair_title">ഈ ഫോൺ ജോടിയാക്കുക</string>
+    <string name="pair_help">My Little World Parent തുറന്ന് “Add child phone” തിരഞ്ഞെടുത്ത് 6 അക്ക കോഡ് ഇവിടെ നൽകുക.</string>
+    <string name="pair_code">ജോടിയാക്കൽ കോഡ്</string>
+    <string name="pair_action">ജോടിയാക്കുക</string>
+    <string name="pair_success">%1$s-മായി ജോടിയാക്കി!</string>
+    <string name="pair_failed">ജോടിയാക്കാനായില്ല. കോഡും കണക്ഷനും പരിശോധിക്കുക.</string>
+    <string name="pair_expired">കോഡ് കാലഹരണപ്പെട്ടു. പുതിയത് ചോദിക്കുക.</string>
+
+    <string name="offline_title">വീണ്ടും ശ്രമിക്കാം</string>
+    <string name="offline_body">ഇപ്പോൾ ഇന്റർനെറ്റ് വേണം. വൈ-ഫൈ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="offline_retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="learning_not_configured_title">എന്റെ പഠനലോകം</string>
+    <string name="learning_not_configured_body">മുതിർന്നയാൾ ഇതുവരെ ഒരു പഠന വെബ്സൈറ്റ് തിരഞ്ഞെടുത്തിട്ടില്ല.</string>
+    <string name="learning_blocked_title">ഈ പേജ് എന്റെ ലോകത്തിന്റെ ഭാഗമല്ല</string>
+    <string name="learning_blocked_body">മുതിർന്നയാൾ തിരഞ്ഞെടുത്ത വെബ്സൈറ്റ് മാത്രമേ ഇവിടെ തുറക്കൂ.</string>
+    <string name="learning_go_back">തിരികെ പോകുക</string>
+    <string name="webview_missing">ഈ ഫോണിൽ വെബ് വ്യൂവർ ലഭ്യമല്ല.</string>
+
+    <string name="call_calling">%1$s-നെ വിളിക്കുന്നു…</string>
+    <string name="call_incoming">%1$s വിളിക്കുന്നു</string>
+    <string name="call_connecting">ബന്ധിപ്പിക്കുന്നു…</string>
+    <string name="call_connected">%1$s-മായി സംസാരിക്കുന്നു</string>
+    <string name="call_ended">കോൾ അവസാനിച്ചു</string>
+    <string name="call_answer">എടുക്കുക</string>
+    <string name="call_end">കോൾ അവസാനിപ്പിക്കുക</string>
+    <string name="call_mute">നിശബ്ദം</string>
+    <string name="call_unmute">ശബ്ദം ഓണാക്കുക</string>
+    <string name="call_speaker">സ്പീക്കർ</string>
+    <string name="call_video_on">ക്യാമറ ഓണാക്കുക</string>
+    <string name="call_video_off">ക്യാമറ ഓഫാക്കുക</string>
+    <string name="call_auto_answer_notice">%1$s-ന്റെ കോൾ സ്വയം എടുത്തു. അവസാനിപ്പിക്കാൻ എൻഡ് കോൾ അമർത്തുക.</string>
+    <string name="call_no_mic">കോളുകൾക്ക് മൈക്രോഫോൺ അനുമതി വേണം.</string>
+    <string name="call_not_configured">കോളിംഗ് ഇപ്പോൾ ക്രമീകരിച്ചിട്ടില്ല.</string>
+    <string name="call_failed">കോൾ ബന്ധിപ്പിക്കാനായില്ല.</string>
+    <string name="call_reconnecting">വീണ്ടും ബന്ധിപ്പിക്കുന്നു…</string>
+    <string name="call_find_phone">%1$s ഈ ഫോൺ തിരയുന്നു</string>
+
+    <string name="camera_shutter">ഫോട്ടോ എടുക്കുക</string>
+    <string name="camera_record">വീഡിയോ എടുക്കുക</string>
+    <string name="camera_stop">റെക്കോർഡിംഗ് നിർത്തുക</string>
+    <string name="camera_switch">ക്യാമറ മാറ്റുക</string>
+    <string name="camera_permission">ഫോട്ടോ എടുക്കാൻ ക്യാമറ അനുമതി വേണം.</string>
+    <string name="camera_saved">ഗാലറിയിൽ സൂക്ഷിച്ചു</string>
+    <string name="camera_unavailable">ഈ ഫോണിൽ ക്യാമറയില്ല.</string>
+    <string name="camera_close">ക്യാമറ അടയ്ക്കുക</string>
+
+    <string name="youtube_missing_title">ഈ ഫോണിൽ യൂട്യൂബ് കിഡ്സ് ഇല്ല</string>
+    <string name="youtube_missing_body">മുതിർന്നയാളോട് പ്ലേ സ്റ്റോറിൽ നിന്ന് ഇൻസ്റ്റാൾ ചെയ്യാൻ പറയുക.</string>
+    <string name="youtube_open_store">പ്ലേ സ്റ്റോർ തുറക്കുക</string>
+    <string name="battery_low_title">ബാറ്ററി തീരാറായി</string>
+    <string name="battery_low_body">ചാർജ് ചെയ്യാൻ പറയുക.</string>
+
+    <string name="notif_channel_service">ഫാമിലി കണക്ഷൻ</string>
+    <string name="notif_channel_calls">ഇൻകമിംഗ് കോളുകൾ</string>
+    <string name="notif_service_title">എന്റെ ചെറിയ ലോകം ബന്ധിപ്പിച്ചിരിക്കുന്നു</string>
+    <string name="notif_service_body">%1$s ഈ ഫോണിൽ എത്താം</string>
+    <string name="notif_incoming_title">%1$s വിളിക്കുന്നു</string>
+    <string name="notif_incoming_body">എടുക്കാൻ അമർത്തുക</string>
+    <string name="notif_ring_title">%1$s ഈ ഫോൺ തിരയുന്നു</string>
+    <string name="notif_ring_body">നിർത്താൻ അമർത്തുക</string>
+    <string name="notif_permission_needed">കോളുകൾ ലഭിക്കാൻ അറിയിപ്പുകൾ അനുവദിക്കുക.</string>
+
+    <string name="a11y_open_learning">എന്റെ പഠനലോകം തുറക്കുക</string>
+    <string name="a11y_call_parent">%1$s-നെ വിളിക്കുക</string>
+    <string name="a11y_open_youtube">യൂട്യൂബ് കിഡ്സ് തുറക്കുക</string>
+    <string name="a11y_open_camera">ക്യാമറ തുറക്കുക</string>
+    <string name="a11y_open_play">%1$s-നൊപ്പം കളിക്കുക</string>
+    <string name="a11y_settings">മുതിർന്നവരുടെ ക്രമീകരണങ്ങൾ</string>
+    <string name="a11y_home">ഹോം</string>
+    <string name="onboarding_title">ഒരു കാര്യം ബാക്കി</string>
+    <string name="onboarding_body">ഈ ഫോൺ ജോടിയാക്കാൻ ഒരു മുതിർന്നയാളോട് പറയുക.</string>
+    <string name="onboarding_pair">ഈ ഫോൺ ജോടിയാക്കുക</string>
+    <string name="quiet_hours_title">വിശ്രമിക്കാം</string>
+    <string name="quiet_hours_body">പഠനലോകം ഉറങ്ങുന്നു. %1$s-ന് വീണ്ടും വരാം.</string>
+    <string name="dev_mode_banner">ലോക്കൽ ഡെവലപ്പ്മെന്റ് മോഡ്</string>
+</resources>

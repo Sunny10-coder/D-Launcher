@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Little World Parent</string>
+    <string name="login_title">My Little World Parent</string>
+    <string name="login_subtitle">Sign in to look after your child\'s phone.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_action">Sign in</string>
+    <string name="login_register">Create a family account</string>
+    <string name="login_server">Family service address</string>
+    <string name="login_dev_hint">Local development: the family service usually runs at http://10.0.2.2:8787</string>
+    <string name="login_failed">Could not sign in. Check your details and the connection.</string>
+    <string name="register_name">Your name</string>
+    <string name="register_action">Create account</string>
+    <string name="register_hint">Account creation only works while the family service allows registration (development mode).</string>
+
+    <string name="dashboard_title">My Little World</string>
+    <string name="dashboard_no_devices">No child phone yet</string>
+    <string name="dashboard_no_devices_body">Create a pairing code, then type it on your child\'s phone in My Little World.</string>
+    <string name="dashboard_add_device">Add a child phone</string>
+    <string name="dashboard_online">Online</string>
+    <string name="dashboard_offline">Offline</string>
+    <string name="dashboard_last_seen">Last seen %1$s</string>
+    <string name="dashboard_battery">%1$d%% battery</string>
+    <string name="dashboard_reload">Refresh</string>
+    <string name="dashboard_sign_out">Sign out</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_location">Location</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_calls">Calls</string>
+
+    <string name="pairing_code_title">Pairing code</string>
+    <string name="pairing_code_help">On the child phone open My Little World → grown-up settings → Pair this phone, then type this code. It expires in 10 minutes and works once.</string>
+    <string name="pairing_code_expires">Expires %1$s</string>
+    <string name="pairing_create">Create a code</string>
+    <string name="pairing_done">Done</string>
+
+    <string name="location_now">Locate now</string>
+    <string name="location_last">Last known location</string>
+    <string name="location_none">No location has been shared yet.</string>
+    <string name="location_stale">Not live — %1$s</string>
+    <string name="location_accuracy">%1$s</string>
+    <string name="location_permission_hint">The child phone must allow location sharing for this to work. If it is off, ask on the device.</string>
+    <string name="location_sharing_off">Location sharing is off on the child phone.</string>
+    <string name="location_safe_zones">Safe zones</string>
+    <string name="location_add_zone">Add a safe zone</string>
+    <string name="location_zone_name">Name</string>
+    <string name="location_zone_radius">Radius (m)</string>
+    <string name="location_zone_lat">Latitude</string>
+    <string name="location_zone_lng">Longitude</string>
+    <string name="location_delete_zone">Delete</string>
+    <string name="location_history">Recent reports</string>
+    <string name="location_open_maps">Open in Maps</string>
+
+    <string name="settings_learning_url">Learning website</string>
+    <string name="settings_play_url">Play together website</string>
+    <string name="settings_nickname">Child\'s name</string>
+    <string name="settings_parent_name">Your name</string>
+    <string name="settings_theme">Home screen colours</string>
+    <string name="settings_tiles">Home screen buttons</string>
+    <string name="settings_auto_answer">Auto-answer voice calls from me</string>
+    <string name="settings_auto_answer_help">The child phone still rings, announces the call out loud and always shows End Call. Android may refuse when the screen is off.</string>
+    <string name="settings_quiet_hours">Quiet hours (24h)</string>
+    <string name="settings_save">Save changes</string>
+    <string name="settings_saved">Saved on the child phone</string>
+    <string name="settings_pending">Saved here — the child phone is offline and will get this next time it connects.</string>
+
+    <string name="call_start_voice">Voice call</string>
+    <string name="call_start_video">Video call</string>
+    <string name="call_find_phone">Ring the phone</string>
+    <string name="call_incoming">%1$s is calling</string>
+    <string name="call_answer">Answer</string>
+    <string name="call_end">End call</string>
+    <string name="call_mute">Mute</string>
+    <string name="call_speaker">Speaker</string>
+    <string name="call_video">Camera</string>
+    <string name="call_connecting">Connecting…</string>
+    <string name="call_connected">Connected</string>
+    <string name="call_failed">The call could not connect.</string>
+    <string name="call_reconnecting">Reconnecting…</string>
+    <string name="call_not_configured">Calling is not configured on this family service (development mode).</string>
+    <string name="call_ringing_sent">Calling %1$s…</string>
+
+    <string name="notif_channel_service">Child phone connection</string>
+    <string name="notif_channel_calls">Incoming calls</string>
+    <string name="notif_service_title">Watching over the family phone</string>
+    <string name="notif_service_body">Connected to the family service</string>
+    <string name="notif_incoming_title">%1$s is calling</string>
+    <string name="notif_incoming_body">Tap to answer</string>
+
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_offline">No connection. Check your network and try again.</string>
+    <string name="sign_out">Sign out</string>
+</resources>
